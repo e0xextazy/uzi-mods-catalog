@@ -1,0 +1,3 @@
+# Large component archives are NEVER committed to git — they go to GitHub Releases.
+*.zip
+*.rpf
