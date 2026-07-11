@@ -390,6 +390,177 @@
           "from": "scaleform_minigames.rpf"
         }
       ]
+    },
+    {
+      "id": "allegri-v3-redux",
+      "name": "ALLEGRI V3",
+      "category": "redux",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Редукс ALLEGRI V3 (карта дефолт). Замена update/update.rpf (оригинал в бэкап, откат в один клик).",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-allegri-v3-v1/allegri-v3-redux.rar",
+      "sizeBytes": 1793130811,
+      "sha256": "fd206b2c1e513b2c06f7b536c3ce938017937bc4dfdda9ee32b80148df2d22e1",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-return-backpacks",
+      "name": "Вернуть рюкзаки",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Вернуть рюкзаки. Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/return-backpacks.zip",
+      "sizeBytes": 7389903,
+      "sha256": "f911c7fa839a66aac3ae7dee192be2e123be759498e615cb9908440ff265e981",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/allegri",
+          "entry": "allegri.rpf",
+          "from": "allegri.rpf"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-std-visualsettings",
+      "name": "Стандартный visualsettings",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Стандартный visualsettings. Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/std-visualsettings.zip",
+      "sizeBytes": 9249,
+      "sha256": "f7c17c3a9a56728b17951e73c81399c3f6a0532dd89e1fa5dbed29fda85f7169",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/common/data",
+          "entry": "visualsettings.dat",
+          "from": "visualsettings.dat"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-remove-climbs",
+      "name": "Удаление залазов (капты)",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Удаление залазов (капты). Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/remove-climbs.zip",
+      "sizeBytes": 21716327,
+      "sha256": "3e630e0e77dda189e59953246a9012ecd5be52c9bd48a85ccfca46377c137acc",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/data/cdimages",
+          "entry": "scaleform_generic_2.rpf",
+          "from": "scaleform_generic_2.rpf"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-remove-mcl-zones",
+      "name": "Удаление запретных зон MCL",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Удаление запретных зон MCL. Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/remove-mcl-zones.zip",
+      "sizeBytes": 17400421,
+      "sha256": "0818d5dbcaa1aef8a59e8bb17bc81ee249ea4d4777638604e440decbfb7be600",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/data/cdimages",
+          "entry": "carrec.rpf",
+          "from": "carrec.rpf"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-remove-minimap-circles",
+      "name": "Удаление кругов с миникарты",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Удаление кругов с миникарты. Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/remove-minimap-circles.zip",
+      "sizeBytes": 1766440,
+      "sha256": "c8de002b979ca990bb67764404a38d3e956ffcff1331477d078e365dd0c80eb0",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/patch/data/cdimages",
+          "entry": "scaleform_minimap.rpf",
+          "from": "scaleform_minimap.rpf"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-remove-hit-effects",
+      "name": "Удаление эффектов попадания",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Удаление эффектов попадания. Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/remove-hit-effects.zip",
+      "sizeBytes": 3764,
+      "sha256": "50a24ab4006cceb3a26102f8aeeca03037f5f1cd43b40971798c54dbfc688cae",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/common/data/effects",
+          "entry": "bloodfx.dat",
+          "from": "bloodfx.dat"
+        }
+      ]
+    },
+    {
+      "id": "allegri-tweak-install-mcl-map",
+      "name": "Официальная карта MCL",
+      "category": "tweak",
+      "author": "ALLEGRI",
+      "version": "3.0.0",
+      "description": "Официальная карта MCL. Опциональный твик ALLEGRI: правит update.rpf, ставится ПОВЕРХ установленного редукса ALLEGRI.",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-allegri-v3-v1/install-mcl-map.zip",
+      "sizeBytes": 96804603,
+      "sha256": "57cc51cb2edee4a4cb151fd29e50521318ed32df692d526030cce5aabed0ab9a",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/data/cdimages",
+          "entry": "scaleform_generic.rpf",
+          "from": "scaleform_generic.rpf"
+        },
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/levels/gta5",
+          "entry": "minimap.rpf",
+          "from": "minimap.rpf"
+        },
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/data/tune",
+          "entry": "minimap.ymt",
+          "from": "minimap.ymt"
+        }
+      ]
     }
   ]
 }
