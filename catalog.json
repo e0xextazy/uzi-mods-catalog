@@ -152,6 +152,92 @@
           "to": "update/update.rpf"
         }
       ]
+    },
+    {
+      "id": "uzi-667-redux",
+      "name": "667 Redux",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Редукс 667 от UZI. Устанавливается заменой update/update.rpf (оригинал в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-667-v1/uzi-667-redux.rar",
+      "sizeBytes": 1877968733,
+      "sha256": "d6a8b988632f2779bdfb51cbf67ffc9a3e3fb305bae7d6364babfc858f9ed440",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-neon-gunpack",
+      "name": "UZI Neon Gunpack",
+      "category": "gunpack",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Неоновый ганпак от UZI. Ставит dlcpack в update/x64/dlcpacks (оригинал в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/gunpack-uzi-neon-v1/uzi-neon-gunpack.rar",
+      "sizeBytes": 17533958,
+      "sha256": "7f4c33befce662e4e9ea7b4242e14ff9b47738ac991c740764a027eb6cf74d3b",
+      "install": [
+        {
+          "op": "copy",
+          "from": "patchday18ng/dlc.rpf",
+          "to": "update/x64/dlcpacks/patchday18ng/dlc.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-armor-black",
+      "name": "UZI Armor (Black)",
+      "category": "gunpack",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Чёрный броник от UZI. Ставит dlcpack'и в update/x64/dlcpacks (оригиналы в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/gunpack-uzi-neon-v1/uzi-armor-black.rar",
+      "sizeBytes": 258436434,
+      "sha256": "e66a3367d8a3f3db645c52293db5f7cacca54ff531c62a7f8141faf7060b7039",
+      "install": [
+        {
+          "op": "copy",
+          "from": "mpjanuary2016/dlc.rpf",
+          "to": "update/x64/dlcpacks/mpjanuary2016/dlc.rpf"
+        },
+        {
+          "op": "copy",
+          "from": "patchday9ng/dlc.rpf",
+          "to": "update/x64/dlcpacks/patchday9ng/dlc.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-armor-white",
+      "name": "UZI Armor (White)",
+      "category": "gunpack",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Белый броник от UZI. Ставит dlcpack'и в update/x64/dlcpacks (оригиналы в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/gunpack-uzi-neon-v1/uzi-armor-white.rar",
+      "sizeBytes": 258749949,
+      "sha256": "a96ff13a580172ba93f454cd2859e790070feb5b8ac0400da9eb98c34399f9d3",
+      "install": [
+        {
+          "op": "copy",
+          "from": "mpjanuary2016/dlc.rpf",
+          "to": "update/x64/dlcpacks/mpjanuary2016/dlc.rpf"
+        },
+        {
+          "op": "copy",
+          "from": "patchday9ng/dlc.rpf",
+          "to": "update/x64/dlcpacks/patchday9ng/dlc.rpf"
+        }
+      ]
     }
   ]
 }
