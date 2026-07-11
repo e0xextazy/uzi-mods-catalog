@@ -13,7 +13,11 @@
       "sizeBytes": 1979077873,
       "sha256": "13bdee3cd7c538efbeeba97b0449a2a8dac84b8ded9109c842a4cdad5f5748a0",
       "install": [
-        { "op": "swapFile", "from": "update.rpf", "to": "update/update.rpf" }
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
       ]
     },
     {
@@ -28,7 +32,125 @@
       "sizeBytes": 1979103436,
       "sha256": "6b22e4a3e64ef229f4a4491affc2e874ba7ebce73800ce34f04688e43b2452f6",
       "install": [
-        { "op": "swapFile", "from": "update.rpf", "to": "update/update.rpf" }
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-purple-redux",
+      "name": "UZI Purple Redux",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Фиолетовый редукс от UZI. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-purple-v1/uzi-purple-redux.rar",
+      "sizeBytes": 2001383226,
+      "sha256": "b77dfd859b9f465f8a1dca8ef0330e53fa86a55150f0ee8a0629afe50fd0264d",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-purple-redux-center-map",
+      "name": "UZI Purple Redux (карта по центру)",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Фиолетовый редукс UZI с картой по центру. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-purple-v1/uzi-purple-redux-center-map.rar",
+      "sizeBytes": 2001383239,
+      "sha256": "1b01919d69fd5f3e09a72ddead0b4678fe7193f0d96c983f73e48a04bf03c0f2",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-classic-redux",
+      "name": "UZI Classic Redux",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Классический редукс от UZI. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-classic-v1/uzi-classic-redux.rar",
+      "sizeBytes": 1970993501,
+      "sha256": "12ed4647f803b00318ba55ef58eec41d8c9668cb6579cd89f33630ebcb846585",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-classic-redux-center-map",
+      "name": "UZI Classic Redux (карта по центру)",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Классический редукс UZI с картой по центру. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-classic-v1/uzi-classic-redux-center-map.rar",
+      "sizeBytes": 1970993305,
+      "sha256": "d5b5c3c2831a91927a72cea822c533b6b29676742009a3f0250b335617eeba55",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-gradient-redux",
+      "name": "UZI Gradient Redux",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Градиентный редукс от UZI. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-gradient-v1/uzi-gradient-redux.rar",
+      "sizeBytes": 1971244226,
+      "sha256": "88a31b8eebe6b6f2d613a1567e2303d485f978e6dce8ba622ad22b1c14a14c9a",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-gradient-redux-center-map",
+      "name": "UZI Gradient Redux (карта по центру)",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Градиентный редукс UZI с картой по центру. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-gradient-v1/uzi-gradient-redux-center-map.rar",
+      "sizeBytes": 1971243974,
+      "sha256": "a68bfc1c236ac78e401e4afa2fa87393fda183bc037276e99aea8be8f5090466",
+      "install": [
+        {
+          "op": "swapFile",
+          "from": "update.rpf",
+          "to": "update/update.rpf"
+        }
       ]
     }
   ]
