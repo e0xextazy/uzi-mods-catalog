@@ -238,6 +238,158 @@
           "to": "update/x64/dlcpacks/patchday9ng/dlc.rpf"
         }
       ]
+    },
+    {
+      "id": "uzi-tweak-map-in-center",
+      "name": "Карта по центру",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Миникарта по центру экрана. Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/map-in-center.zip",
+      "sizeBytes": 5141,
+      "sha256": "4da7c4228ccf5c8e49eda43b1846334b1cb6b6e2855302d5a4df11af391eb29c",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/common/data/ui",
+          "entry": "frontend.xml",
+          "from": "frontend.xml"
+        }
+      ]
+    },
+    {
+      "id": "uzi-tweak-other-minimap",
+      "name": "Другая миникарта",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Альтернативный стиль миникарты. Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/other-minimap.zip",
+      "sizeBytes": 2564516,
+      "sha256": "e731dae1a0150481527b6d8e71608b4d56dd7b044799e9a6c8e22fabfed7aad9",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/patch/data/cdimages",
+          "entry": "scaleform_minimap.rpf",
+          "from": "scaleform_minimap.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-tweak-delete-backpack",
+      "name": "Убрать рюкзак",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Убирает рюкзак с персонажа. Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/delete-backpack.zip",
+      "sizeBytes": 123467,
+      "sha256": "f9470e1d3513232e775761646fc416c08b0c56309cf203dc2caf73cddeeb68a4",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/dlc_patch/patchday17ng",
+          "entry": "content.xml",
+          "from": "content.xml"
+        },
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/dlc_patch/patchday17ng",
+          "entry": "ntmods.rpf",
+          "from": "ntmods.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-tweak-delete-business",
+      "name": "Убрать бизнесы",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Убирает бизнес-объекты. Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/delete-business.zip",
+      "sizeBytes": 892,
+      "sha256": "0b396d21b3c00a1862dd33b13c7ff2c981c6664d85aae0dd871f00fa83f13826",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/dlc_patch/patchday17ng",
+          "entry": "content.xml",
+          "from": "content.xml"
+        }
+      ]
+    },
+    {
+      "id": "uzi-tweak-delete-mall",
+      "name": "Убрать ТЦ",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Убирает торговый центр (объект карты). Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/delete-mall.zip",
+      "sizeBytes": 17400421,
+      "sha256": "56304a75c2e625f5c71b95d435f5ea7369ed4c6bfdbbeb6984b810950e65f604",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/data/cdimages",
+          "entry": "carrec.rpf",
+          "from": "carrec.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-tweak-back-tracer",
+      "name": "Трассеры пуль",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Добавляет трассеры пуль. Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/back-tracer.zip",
+      "sizeBytes": 6295435,
+      "sha256": "a8dc89fdab0db381fd7bf68de29a592425834cb5fe35f66771daa8ad04be10fc",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/common/data/effects",
+          "entry": "ptxclipregions.dat",
+          "from": "ptxclipregions.dat"
+        },
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/wws",
+          "entry": "core.rpf",
+          "from": "core.rpf"
+        }
+      ]
+    },
+    {
+      "id": "uzi-tweak-add-schedule",
+      "name": "Добавить расписание",
+      "category": "tweak",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Добавляет расписание/контент по времени. Опциональный твик: правит update.rpf, ставится ПОВЕРХ установленного редукса. Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/tweaks-uzi-667-v1/add-schedule.zip",
+      "sizeBytes": 6515415,
+      "sha256": "b3e6468448ee8a2a2480c1831358b8c615840e568d431f92a05feaaea0ba03fe",
+      "install": [
+        {
+          "op": "rpfSet",
+          "archive": "update/update.rpf/x64/patch/data/cdimages",
+          "entry": "scaleform_minigames.rpf",
+          "from": "scaleform_minigames.rpf"
+        }
+      ]
     }
   ]
 }

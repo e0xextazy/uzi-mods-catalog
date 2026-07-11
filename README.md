@@ -33,7 +33,7 @@
 {
   "id": "zangetsu-redux",          // уникальный, только буквы/цифры/-/_/.  (используется как имя папки)
   "name": "Zangetsu Redux",
-  "category": "redux",              // redux|gunpack|armor|map|sound|timecycle|tracer|hitEffect|crosshair|blips
+  "category": "redux",              // redux|gunpack|armor|tweak|map|sound|timecycle|tracer|hitEffect|crosshair|blips
   "author": "Zangetsu",
   "version": "1.2.0",
   "description": "Тёмный реалистичный редукс…",
@@ -54,7 +54,7 @@
 ```
 
 **Операции (`op`):** `copy` / `swapFile` — подстановка файла в папку игры; `rpfReplace` /
-`rpfAdd` / `rpfDelete` — правка entry **внутри** `.rpf` (`archive` = путь к архиву,
+`rpfAdd` / `rpfSet` / `rpfDelete` — правка entry **внутри** `.rpf` (`rpfSet` = добавить-или-заменить) (`archive` = путь к архиву,
 `entry` = имя записи, `from` = путь в zip). Пути `from`/`to`/`archive`/`entry` — относительные,
 без `..`.
 
