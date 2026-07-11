@@ -1,4 +1,35 @@
 {
   "version": 1,
-  "components": []
+  "components": [
+    {
+      "id": "uzi-vanilla-redux",
+      "name": "UZI Vanilla Redux",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Ванильный редукс от UZI. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-vanilla-v1/uzi-vanilla-redux.rar",
+      "sizeBytes": 1979077873,
+      "sha256": "13bdee3cd7c538efbeeba97b0449a2a8dac84b8ded9109c842a4cdad5f5748a0",
+      "install": [
+        { "op": "swapFile", "from": "update.rpf", "to": "update/update.rpf" }
+      ]
+    },
+    {
+      "id": "uzi-vanilla-redux-center-map",
+      "name": "UZI Vanilla Redux (карта по центру)",
+      "category": "redux",
+      "author": "UZI",
+      "version": "1.0.0",
+      "description": "Вариант ванильного редукса UZI с картой по центру. Устанавливается заменой update/update.rpf (оригинал сохраняется в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
+      "preview": null,
+      "downloadUrl": "https://github.com/e0xextazy/uzi-mods-catalog/releases/download/redux-uzi-vanilla-v1/uzi-vanilla-redux-center-map.rar",
+      "sizeBytes": 1979103436,
+      "sha256": "6b22e4a3e64ef229f4a4491affc2e874ba7ebce73800ce34f04688e43b2452f6",
+      "install": [
+        { "op": "swapFile", "from": "update.rpf", "to": "update/update.rpf" }
+      ]
+    }
+  ]
 }
