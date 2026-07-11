@@ -194,7 +194,7 @@
     {
       "id": "uzi-armor-black",
       "name": "UZI Armor (Black)",
-      "category": "gunpack",
+      "category": "armor",
       "author": "UZI",
       "version": "1.0.0",
       "description": "Чёрный броник от UZI. Ставит dlcpack'и в update/x64/dlcpacks (оригиналы в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",
@@ -218,7 +218,7 @@
     {
       "id": "uzi-armor-white",
       "name": "UZI Armor (White)",
-      "category": "gunpack",
+      "category": "armor",
       "author": "UZI",
       "version": "1.0.0",
       "description": "Белый броник от UZI. Ставит dlcpack'и в update/x64/dlcpacks (оригиналы в бэкап, откат в один клик). Discord: https://discord.gg/uzifamq · Telegram: https://t.me/uzifamq",

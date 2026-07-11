@@ -33,7 +33,7 @@
 {
   "id": "zangetsu-redux",          // уникальный, только буквы/цифры/-/_/.  (используется как имя папки)
   "name": "Zangetsu Redux",
-  "category": "redux",              // redux|gunpack|map|sound|timecycle|tracer|hitEffect|crosshair|blips
+  "category": "redux",              // redux|gunpack|armor|map|sound|timecycle|tracer|hitEffect|crosshair|blips
   "author": "Zangetsu",
   "version": "1.2.0",
   "description": "Тёмный реалистичный редукс…",
